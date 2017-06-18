@@ -4,10 +4,6 @@
 <!-- Favicon Pc -->
 <link rel="icon" type="image/png" href="../images/favicon.png" sizes="32x32">
 
-<!-- Favicon Apple -->
-<link rel="apple-touch-icon" sizes="32x32" href="../images/favicon.png">
-<meta name="msapplication-TileColor" content="#ffffff">
-
 <meta charset="utf-8">
 <title>KappaArmy.de</title>
 </head>
@@ -19,7 +15,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/clan/clan_d_layout.css">
 	<link href="http://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="../css/icon.css">
+	<link rel="stylesheet" type="text/css" href="../css/badges.css">
 	
 	<!-- ################################################################################################################### -->
 	<!-- JQuery -->
