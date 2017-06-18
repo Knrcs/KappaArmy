@@ -1,0 +1,41 @@
+/* CSS Document */ 
+
+/* ################################################################# */ 
+/* HTML Standart Tags */
+/* ################################################################# */ 
+
+body, html { margin:@; padding:0; width:100%; height:100%;}
+
+h2 { text-transform:uppercase; text-align:center; margin:100px auto 0 auto; font-size:50px;}
+.ka_h2_balken { margin:0 auto 10px auto; height:5px; width:80px;}
+.ka_h3_balken { margin:0 auto 20px auto; height:5px; width:80px;}
+
+.ka_button { text-transform:uppercase; padding:10px 30px 10px 30px; display:inline-block; margin:20px 0 20px 50px;}
+
+a { text-decoration:none; }
+
+/* ################################################################# */ 
+/* Zusammengefasste Klassen */
+/* ################################################################# */ 
+#Startseite .ka_h2_balken
+{ background:#fff;}
+
+p
+{ text-align: center; font-size: 60px; font-family: Exo, sans-serif;}
+
+h2
+{font-family:'Lato',sant-serif; font-weight:300; line-height:44px;}
+
+
+/* ################################################################# */ 
+/* Umfassende Objekte & Klassen */
+/* ################################################################# */ 
+
+.ka_page { width:100%; min-height:100%; overflow:hidden; float:left;}
+
+/* ################################################################# */ 
+/* Countdown */
+/* ################################################################# */ 
+
+#Countdown { background:url(../../images/app/d2_countdown/bg_app.jpg); background-position:center center; background-size:cover; background-attachment: fixed;}
+#Countdown .ka_h2_balken { margin:0 0 20px 50px;}

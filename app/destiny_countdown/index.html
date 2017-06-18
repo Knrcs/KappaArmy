@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Destiny 2 Countdown</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=2">
+	<!-- Favicon Pc -->
+	<link rel="icon" type="image/png" href="../../images/favicon.png" sizes="32x32">
+	<!-- App Icon -->
+	<!-- Apple -->
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<link rel="apple-touch-icon" sizes="76x76" href="../../images/app/d2_countdown/apple/apple-touch-icon-76.png" />
+	<link rel="apple-touch-icon" sizes="120x120" href="../../images/app/d2_countdown/apple/apple-touch-icon-120.png" />
+	<link rel="apple-touch-icon" sizes="152x152" href="../../images/app/d2_countdown/apple/apple-touch-icon-152.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="../../images/app/d2_countdown/apple/apple-touch-icon-180.png" />
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<!-- Android -->
+	<link rel="icon" sizes="192x192" href="../../images/app/d2_countdown/android/android-touch-icon.png">
+	<!-- Windows phone -->
+	<meta name="msapplication-square70x70logo" content="../../images/app/d2_countdown/microsoft/smalltile.png" />
+	<meta name="msapplication-square150x150logo" content="../../images/app/d2_countdown/microsoft/mediumtile.png" />
+</head>
+
+	<!-- ################################################################################################################### -->
+	<!-- CSS & Fonts -->
+	<!-- ################################################################################################################### -->
+
+	<link rel="stylesheet" type="text/css" href="../../css/app/destiny2_countdown/layout.css">
+	<link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+	<link href="http://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
+	
+<body>
+	<section id="Countdown" class="ka_page"
+	
+		<!-- Headline -->
+		<h2>Destiny 2<br> Countdown</h2>
+		<div class="ka_h2_balken"></div>
+
+		<p id="demo"></p>
+
+		<script>
+		var countDownDate = new Date("Sep 6, 2017 00:00:00").getTime();
+
+		var x = setInterval(function() {
+
+			var now = new Date().getTime();
+    
+			var distance = countDownDate - now;
+    
+			var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+			var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+			var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+			var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+			document.getElementById("demo").innerHTML = days + "T " + hours + "h "
+			+ minutes + "m " + seconds + "s ";
+    
+			if (distance < 0) {
+				clearInterval(x);
+				document.getElementById("demo").innerHTML = "DESTINY 2 WURDE VERÖFFENTLICHT !!!!";
+			}
+		}, 1000);
+		</script>
+	</section>
+</body>
+</html>
