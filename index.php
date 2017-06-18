@@ -4,10 +4,6 @@
 <!-- Favicon Pc -->
 <link rel="icon" type="image/png" href="images/favicon.png" sizes="32x32">
 
-<!-- Favicon Apple -->
-<link rel="apple-touch-icon" sizes="32x32" href="images/favicon.png">
-<meta name="msapplication-TileColor" content="#ffffff">
-
 <meta charset="utf-8">
 <title>KappaArmy.de</title>
 </head>
