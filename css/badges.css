@@ -6,9 +6,6 @@
 
 body, html {background:gray; margin:@; padding:0; width:100%; height:100%;}
 
-.badge-list
-{margin: 50px 50px 50px 50px;}
-
 .player-badge, div
 {font-family:'Lato',sant-serif; }
 /* ################################################################# */ 
@@ -18,7 +15,9 @@ body, html {background:gray; margin:@; padding:0; width:100%; height:100%;}
 .player-badge
 {color: #fff; display: inline-block; padding:1px 3px; border-radius: 3px; margin-right: 3px; line-height:1.3; font-weight:400; font-size:.8em;}
 
-
+/* ################################################################# */ 
+/* Badges */
+/* ################################################################# */ 
 
 .player-badge--creator
 { background:#fff; text-shadow:none; color:#57bb8a;}
@@ -28,6 +27,9 @@ body, html {background:gray; margin:@; padding:0; width:100%; height:100%;}
 
 .player-badge--boss
 { background:#fff; text-shadow:none; color:#c53609;}
+
+.player-badge--donate
+{ background:#fff; text-shadow:none; color:#00c853}
 
 .player-badge--100donate
 { background:#fff; text-shadow:none; color:#00C853;}
