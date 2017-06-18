@@ -11,7 +11,6 @@
 	<!-- ################################################################################################################### -->
 	<!-- CSS & Fonts -->
 	<!-- ################################################################################################################### -->
-
 	<link rel="stylesheet" type="text/css" href="css/layout.css">
 	<link href="http://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
