@@ -1,10 +1,10 @@
-/* CSS Document */ 
+﻿/* CSS Document */ 
 
 /* ################################################################# */ 
 /* HTML Standart Tags */
 /* ################################################################# */ 
 
-body, html { margin:@; padding:0; width:100%; height:100%;}
+body, html { margin:0; padding:0; width:100%; height:100%;}
 
 h2 { text-transform:uppercase; text-align:center; margin:100px auto 0 auto; font-size:55px;}
 .ka_h2_balken { margin:0 auto 10px auto; height:5px; width:80px;}
@@ -84,3 +84,16 @@ header:hover > #ka_kontakt_icon .ka_kontakt_icon span { margin:26px 0 0 26px; fo
 
 header:hover > nav ul { margin:26px 20px 0 0;}
 header:hover > nav ul li a { font-size:15px;}
+
+/* ################################################################# */ 
+/* Startseite */
+/* ################################################################# */ 
+
+#Startseite { background:url(../../images/bg_startseite.jpg); background-position:center center; background-size:cover; background-attachment: fixed;}
+#Startseite h2 { text-align:center; margin:450px 0 0 50px; font-size:120px; line-height:110px;}
+#Startseite .ka_h2_balken { margin:0 0 20px 50px;}
+#Startseite p { margin:0 0 20px 50px; max-width:300px; color:#fff}
+#Startseite .ka_button { border:2px solid #fff;} 
+#Startseite .Member {font-size:20px; font-family:'Lato',sant-serif;}
+
+
