@@ -12,7 +12,10 @@
 	<!-- CSS & Fonts -->
 	<!-- ################################################################################################################### -->
 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="../css/clan/clan_ow_layout.css">
+	<link rel="stylesheet" type="text/css" href="../css/badges.css">
+	<link rel="stylesheet" type="text/css" href="../css/popover.css">
 	<link href="http://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="../css/badges.css">
