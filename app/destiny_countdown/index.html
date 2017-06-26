@@ -34,11 +34,20 @@
 <body>
 	<section id="Countdown" class="ka_page"
 
-		<!-- Headline -->
-		<h2>Destiny 2<br> Countdown</h2>
-		<p id="Release"></p>
-		<h2>Playstation 4<br>Destiny 2 Beta</h2>		<p id="Beta Ps4"></p>		<h2>Xbox One<br>Destiny 2 Beta</h2>		<p id="Beta Xb1"></p>
-		<script>
+		<!-- Headline -->		<h2>Playstation 4<br>Destiny 2 Beta</h2>
+
+		<p id="Beta Ps4"></p>
+
+		<h2>Xbox One<br>Destiny 2 Beta</h2>
+
+		<p id="Beta Xb1"></p>
+
+		<h2>Open Beta <br>XB1 & Ps4</h2>
+
+		<p id="Open Beta"></p>
+
+		<h2>Destiny 2<br>Release</h2>
+		<p id="Release"></p>		<h2>Destiny 2<br>Pc Release</h2>		<p id="Pc Release"></p>		<script>
 		var countDownDate = new Date("Sep 6, 2017 00:00:00").getTime();
 
 		var x = setInterval(function() {
@@ -152,6 +161,98 @@
 						}, 1000);
 
 						</script>
+
+								<script>
+
+								var countDownDate4 = new Date("Jul 21, 2017 00:00:00").getTime();
+
+
+
+								var x4 = setInterval(function() {
+
+
+
+									var now4 = new Date().getTime();
+
+
+
+									var distance4 = countDownDate4 - now4;
+
+
+
+									var days4 = Math.floor(distance4 / (1000 * 60 * 60 * 24));
+
+									var hours4 = Math.floor((distance4 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+
+									var minutes4 = Math.floor((distance4 % (1000 * 60 * 60)) / (1000 * 60));
+
+									var seconds4 = Math.floor((distance4 % (1000 * 60)) / 1000);
+
+
+
+									document.getElementById("Open Beta").innerHTML = days4 + "T " + hours4 + "h "
+
+									+ minutes4 + "m " + seconds4 + "s ";
+
+
+
+									if (distance4 < 0) {
+
+										clearInterval(x4);
+
+										document.getElementById("Open Beta").innerHTML = "DESTINY 2 OPEN BETA WURDE VERÖFFENTLICHT !!!!";
+
+									}
+
+								}, 1000);
+
+								</script>
+
+												<script>
+
+												var countDownDate5 = new Date("Oct 24, 2017 00:00:00").getTime();
+
+
+
+												var x5 = setInterval(function() {
+
+
+
+													var now5 = new Date().getTime();
+
+
+
+													var distance5 = countDownDate5 - now5;
+
+
+
+													var days5 = Math.floor(distance5 / (1000 * 60 * 60 * 24));
+
+													var hours5 = Math.floor((distance5 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+
+													var minutes5 = Math.floor((distance5 % (1000 * 60 * 60)) / (1000 * 60));
+
+													var seconds5 = Math.floor((distance5 % (1000 * 60)) / 1000);
+
+
+
+													document.getElementById("Pc Release").innerHTML = days5 + "T " + hours5 + "h "
+
+													+ minutes5 + "m " + seconds5 + "s ";
+
+
+
+													if (distance5 < 0) {
+
+														clearInterval(x5);
+
+														document.getElementById("Pc Release").innerHTML = "DESTINY 2 WURDE FÜR DEN PC VERÖFFENTLICHT !!!!";
+
+													}
+
+												}, 1000);
+
+												</script>
 
 
 	</section>
