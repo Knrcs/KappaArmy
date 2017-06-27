@@ -1,0 +1,26 @@
+/* CSS Document */
+
+
+
+/* ################################################################# */
+
+/* HTML Standart Tags */
+
+/* ################################################################# */
+
+
+
+body, html { margin:@; padding:0; width:100%; height:100%;}
+
+
+
+h2 { text-transform:uppercase; text-align:center; font-size:15px;}
+
+
+a { text-decoration:none; }
+
+.badge_list_f2p, .badge_list_donate, .badge_list_event, .badge_list_owner
+{float: left;}
+
+.all_badges
+{padding: 200px 20px;}
